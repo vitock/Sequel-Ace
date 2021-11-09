@@ -1949,7 +1949,7 @@ typedef void (^QueryProgressHandler)(QueryProgress *);
     [tableDocumentInstance startTaskWithDescription:NSLocalizedString(@"Checking field data for editing...", @"checking field data for editing task description")];
     
     // Actual check whether field can be identified bijectively
-    SPMySQLResult *tempResult = [mySQLConnection queryString:[NSString stringWithFormat:@"SELECT COUNT(1) FROM %@.%@ %@",
+    SPMySQLResult *tempResult = [mySQLConnection queryString:[NSString stringWithFormat:@"SELECT COUNT(1) FROM %@.%@ %@ limit 100",
                                                               [[columnDefinition objectForKey:@"db"] backtickQuotedString],
                                                               [tableForColumn backtickQuotedString],
                                                               fieldIDQueryStr]];
@@ -1969,7 +1969,7 @@ typedef void (^QueryProgressHandler)(QueryProgress *);
             return @[@(-1), @""];
         }
         
-        tempResult = [mySQLConnection queryString:[NSString stringWithFormat:@"SELECT COUNT(1) FROM %@.%@ %@",
+        tempResult = [mySQLConnection queryString:[NSString stringWithFormat:@"SELECT COUNT(1) FROM %@.%@ %@ limit 100",
                                                    [[columnDefinition objectForKey:@"db"] backtickQuotedString],
                                                    [tableForColumn backtickQuotedString],
                                                    fieldIDQueryStr]];
