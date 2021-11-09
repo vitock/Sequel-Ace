@@ -618,7 +618,7 @@
 						CreatedOnToolsVersion = 6.2;
 					};
 					8DC2EF4F0486A6940098B216 = {
-						DevelopmentTeam = NKQ4HJ66PX;
+						DevelopmentTeam = 34YV27HS48;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -771,7 +771,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = NKQ4HJ66PX;
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3043;
 				FRAMEWORK_VERSION = A;
@@ -787,7 +787,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql133";
 				PRODUCT_NAME = SPMySQL;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REEXPORTED_LIBRARY_NAMES = "crypto.1.1 ssl.1.1";
@@ -805,7 +805,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = NKQ4HJ66PX;
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3043;
 				FRAMEWORK_VERSION = A;
@@ -819,7 +819,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql133";
 				PRODUCT_NAME = SPMySQL;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REEXPORTED_LIBRARY_NAMES = "crypto.1.1 ssl.1.1";
@@ -1082,7 +1082,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = NKQ4HJ66PX;
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3043;
 				FRAMEWORK_VERSION = A;
@@ -1098,7 +1098,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql133";
 				PRODUCT_NAME = SPMySQL;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REEXPORTED_LIBRARY_NAMES = "crypto.1.1 ssl.1.1";
@@ -1199,7 +1199,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = NKQ4HJ66PX;
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3043;
 				FRAMEWORK_VERSION = A;
@@ -1213,7 +1213,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql133";
 				PRODUCT_NAME = SPMySQL;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REEXPORTED_LIBRARY_NAMES = "crypto.1.1 ssl.1.1";
@@ -1281,7 +1281,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = NKQ4HJ66PX;
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3043;
 				FRAMEWORK_VERSION = A;
@@ -1295,7 +1295,7 @@
 					"\"$(SRCROOT)/MySQL Client Libraries/lib\"",
 				);
 				OTHER_LDFLAGS = "-lc++";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.spmysql133";
 				PRODUCT_NAME = SPMySQL;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				REEXPORTED_LIBRARY_NAMES = "crypto.1.1 ssl.1.1";
