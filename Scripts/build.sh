@@ -48,11 +48,12 @@ dir_exists() {
 #  exit 1
 #fi
 
-if ! hash xcpretty 2> /dev/null; then
-  echo "xcpretty not installed. Try gem install xcpretty"
-  trap - EXIT
-  exit 1
-fi
+# hash 
+# if ! hash xcpretty 2> /dev/null; then
+#   echo "xcpretty not installed. Try gem install xcpretty"
+#   trap - EXIT
+#   exit 1
+# fi
 
 if [ "$MODE" = "tests" ]; then
   echo "Running Sequel Ace Unit tests"

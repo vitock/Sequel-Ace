@@ -358,6 +358,15 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					17E5969D14F307CE0054EE08 = {
+						ProvisioningStyle = Automatic;
+					};
+					8DC2EF4F0486A6940098B216 = {
+						DevelopmentTeam = 34YV27HS48;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "QueryKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -482,8 +491,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				FRAMEWORK_VERSION = A;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
@@ -516,6 +528,7 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit";
 				PRODUCT_NAME = QueryKit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wmost";
 				WRAPPER_EXTENSION = framework;
@@ -526,8 +539,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -543,6 +559,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit.tests";
 				PRODUCT_NAME = Tests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -550,9 +567,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
@@ -566,6 +586,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit.tests";
 				PRODUCT_NAME = Tests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -574,7 +595,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
@@ -588,6 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit.tests";
 				PRODUCT_NAME = Tests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Distribution;
 		};
@@ -595,8 +620,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 3043;
 				FRAMEWORK_VERSION = A;
@@ -633,6 +661,7 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit";
 				PRODUCT_NAME = QueryKit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wmost";
 				WRAPPER_EXTENSION = framework;
@@ -643,8 +672,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				FRAMEWORK_VERSION = A;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
@@ -677,6 +709,7 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit";
 				PRODUCT_NAME = QueryKit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wmost";
 				WRAPPER_EXTENSION = framework;
@@ -830,8 +863,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 34YV27HS48;
 				FRAMEWORK_VERSION = A;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
@@ -864,6 +900,7 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit";
 				PRODUCT_NAME = QueryKit;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				WARNING_CFLAGS = "-Wmost";
 				WRAPPER_EXTENSION = framework;
@@ -874,7 +911,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_MODEL_TUNING = G5;
@@ -888,6 +928,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.querykit.tests";
 				PRODUCT_NAME = Tests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Beta;
 		};

@@ -2459,7 +2459,7 @@
 				96B0A162249416B1007BB270 /* Copy SequelAceTunnelAssistant and sign */,
 				4DECC4940EC2B447008D359E /* Copy Frameworks */,
 				9691789224A562330012ED42 /* Copy Default Themes and Default Bundles */,
-				1A62C63425BE08F400DF903B /* ShellScript */,
+				1A62C63425BE08F400DF903B /* Run Script222 */,
 			);
 			buildRules = (
 			);
@@ -2742,7 +2742,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1A62C63425BE08F400DF903B /* ShellScript */ = {
+		1A62C63425BE08F400DF903B /* Run Script222 */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2751,13 +2751,14 @@
 			);
 			inputPaths = (
 			);
+			name = "Run Script222";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ] || [ \"${CONFIGURATION}\" = \"Beta\" ] || [ \"${CONFIGURATION}\" = \"Distribution\" ]; then\n    \"${PROJECT_DIR}/Scripts/upload_symbols.sh\" \"Sequel-Ace/Sequel-Ace\" \nelse\n    echo \"Not uploading symbols for \\\"${CONFIGURATION}\\\" build\"\nfi\n";
+			shellScript = "if [ \"${CONFIGURATION}\" = \"Release\" ] || [ \"${CONFIGURATION}\" = \"Beta\" ] || [ \"${CONFIGURATION}\" = \"Distribution\" ]; then\n    echo zz ${SRCROOT} \n    \"${SRCROOT}/Scripts/upload_symbols.sh\" \"Sequel-Ace/Sequel-Ace\" \nelse\n    echo \"Not uploading symbols for \\\"${CONFIGURATION}\\\" build\"\nfi\n";
 		};
 		517E44F4257A8FB700ED333B /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -3317,6 +3318,7 @@
 				SCRIPTS_DIR = "$(SRCROOT)/Scripts";
 				SDKROOT = macosx;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = "-Wmost";
 			};
@@ -3328,7 +3330,7 @@
 				APPLY_RULES_IN_COPY_HEADERS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Sequel Ace.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = YES;
@@ -3357,7 +3359,8 @@
 					"$(PROJECT_DIR)/Frameworks/SPMySQLFramework/MySQL\\ Client\\ Libraries/lib",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.sequel-ace133";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.sequel-ace1334";
 				PRODUCT_MODULE_NAME = Sequel_Ace;
 				PRODUCT_NAME = "Sequel Ace";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3619,6 +3622,7 @@
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = "-Wmost";
 			};
@@ -3630,9 +3634,9 @@
 				APPLY_RULES_IN_COPY_HEADERS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Sequel Ace.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMPRESS_PNG_FILES = YES;
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = 34YV27HS48;
@@ -3659,6 +3663,7 @@
 					"$(PROJECT_DIR)/Frameworks/SPMySQLFramework/MySQL\\ Client\\ Libraries/lib",
 					"$(inherited)",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.sequel-ace-beta133";
 				PRODUCT_MODULE_NAME = Sequel_Ace;
 				PRODUCT_NAME = "Sequel Ace Beta";
@@ -3771,7 +3776,7 @@
 				APPLY_RULES_IN_COPY_HEADERS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Sequel Ace.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = YES;
@@ -3801,7 +3806,8 @@
 					"$(PROJECT_DIR)/Frameworks/SPMySQLFramework/MySQL\\ Client\\ Libraries/lib",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.sequel-ace133";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.sequel-ace1334";
 				PRODUCT_MODULE_NAME = Sequel_Ace;
 				PRODUCT_NAME = "Sequel Ace";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3821,7 +3827,7 @@
 				APPLY_RULES_IN_COPY_HEADERS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = "Sequel Ace.entitlements";
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMPRESS_PNG_FILES = YES;
@@ -3850,7 +3856,8 @@
 					"$(PROJECT_DIR)/Frameworks/SPMySQLFramework/MySQL\\ Client\\ Libraries/lib",
 					"$(inherited)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.sequel-ace133";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sequel-ace.sequel-ace1334";
 				PRODUCT_MODULE_NAME = Sequel_Ace;
 				PRODUCT_NAME = "Sequel Ace";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -3941,6 +3948,7 @@
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = "-Wmost";
 			};
@@ -4015,6 +4023,7 @@
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PROJECT_NAME)-Swift.h";
+				VALID_ARCHS = arm64;
 				VERSIONING_SYSTEM = "apple-generic";
 				WARNING_CFLAGS = "-Wmost";
 			};
